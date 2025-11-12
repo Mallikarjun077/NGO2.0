@@ -114,12 +114,12 @@ const About = () => {
           Together, we can create lasting change. Become a volunteer, partner,
           or donor and help us continue making a difference.
         </p>
-        <a
-          href="/donate"
+        <Link
+          to="/donate"
           className="bg-white text-cyan-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
         >
           Donate Now 💖
-        </a>
+        </Link>
       </section>
 
       {/* <Footer /> */}
