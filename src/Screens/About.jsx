@@ -1,6 +1,8 @@
 import React from "react";
 import ngoTeam from "../assets/ngo5.jpg"; // Replace with your team or NGO image
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
+
 import AnimationWrapper from "../Components/AnimationReveal";
 
 const About = () => {
